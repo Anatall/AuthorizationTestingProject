@@ -1,0 +1,1 @@
+Java "-Dserver.port=80" -jar demo-1.0-exec.jar

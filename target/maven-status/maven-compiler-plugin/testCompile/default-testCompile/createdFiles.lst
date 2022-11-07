@@ -1,0 +1,14 @@
+tests\api\tests\base\BaseTest.class
+tests\api\specifications\Specifications.class
+tests\ui\locators\Locators.class
+tests\constants\Constant.class
+tests\garbage\base\searchapartment\SearchApartmentTest.class
+tests\ui\pages\login\LoginPage.class
+tests\api\pojo\Authorizator.class
+tests\ui\tests\base\BaseTest.class
+tests\constants\Constant$Datas.class
+tests\constants\Constant$Urls.class
+tests\ui\tests\pages\login\LoginPageAuthorizationTest.class
+tests\api\tests\pages\login\LoginPageAuthorizationAPITest.class
+tests\ui\locators\Locators$LoginPageLocators.class
+tests\ui\pages\base\BasePage.class

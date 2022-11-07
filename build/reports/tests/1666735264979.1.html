@@ -1,0 +1,103 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>СА (Главная)</title>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">Система аутентификации</a>
+
+    </div>
+</nav>
+<br><br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="text-center">Техническое задание</h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <ol>
+                            <li>
+                                Для входа в систему Пользователю необходимо:
+                            </li>
+                            <ol type="i">
+                                <li>указать E-mail/Логин и пароль
+                                </li>
+                                <li>нажать кнопку "Войти"</li>
+                            </ol>
+                            <li>После успешной аутентификации пользователь получает куки с сессией</li>
+                            <li>При неуспешной аутентификации отображаются допущенные ошибки</li>
+                            <li>E-mail можно указать в любом регистре, но допускается совпадение E-mail для разных
+                                пользователей с символами в разных регистрах
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="card-header">
+                <h4 class="text-center">Задачи</h4>
+            </div>
+            <div class="card-body">
+                <div>
+                    <ol>
+                        <li>Написать API и UI автотесты на страницу входа Grey Box подходом</li>
+                        <li>Не забыть про возможность настройки (например, под разные среды и стенды)</li>
+                        <li>Для Java:</li>
+                        <ol type="i">
+                            <li>Использовать JUnit5/TestNG</li>
+                            <li>Использовать RestAssured</li>
+                            <li>Использовать Selenium/Selenide</li>
+                            <li>Использовать Allure</li>
+                            <li>Использовать Maven/Gradle</li>
+                        </ol>
+                        <li>Подключение той или иной библиотеки к проекту автотестов аргументировать в комментариях:
+                            зачем, почему именно она
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="card-header">
+                <h4 class="text-center">Тестовые пользователи</h4>
+            </div>
+            <div class="card-body">
+                <table width="100%">
+                    <tbody><tr>
+                        <th>Логин</th>
+                        <th>E-mail</th>
+                        <th>Пароль</th>
+                    </tr>
+                    <tr>
+                        <td>first_user</td>
+                        <td>default_user@test.ci</td>
+                        <td>default_password</td>
+                    </tr>
+                    <tr>
+                        <td>second_user</td>
+                        <td>Default_user@test.ci</td>
+                        <td>default_password</td>
+                    </tr>
+                    <tr>
+                        <td>third_user</td>
+                        <td>third_user@test.ci</td>
+                        <td>default_password</td>
+                    </tr>
+                </tbody></table>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div align="center" class="form-group mb-3">
+                        <a class="btn btn-success block" rel="noopener noreferrer" target="_blank" href="/login" type="button">Открыть страницу аутентификации</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body></html>
